@@ -1,3 +1,4 @@
 #!/usr/bin/node
-const [arg] = process.argv.slice(2);
-console.log(arg ? arg : "No argument");
+const [arg1, arg2] = process.argv.slice(2);
+
+console.log(`${arg1} is ${arg2}`);
